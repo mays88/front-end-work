@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: aliceblue;
+
+    height: 100vh;
+}
+
+div {
+    padding: 10px;
+    align-content: center;
+    border-radius: 15px 15px 5px 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.card {
+    background-color: azure;
+    width: 850px;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid navy;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 100px;
+}
+.tableBody {
+    text-align: center;
+}
+table {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border: 5px solid green;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid red;
+}
+
+th {
+    height: 50px;
+    text-align: right;
+    padding-right: 10px;
+}
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+/* NAVIGATION BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+.login-user {
+    height: 1em;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+    color: white;
+}
+
+section {
+    text-align: center;
+    width: 500px;
+    height: 420px;
+    margin: auto;
+    border: 5px solid navy;
+    border-radius: 20%;
+}
+
+.mainform {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.doubleLine {
+    border: 10px double rgb(130, 130, 255);
+    box-shadow: -15px -15px 25px rgba(165, 158, 255, 0.33);
+}
+
+.grouped {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    padding-top: 100px;
+    box-shadow: 15px 15px 26px rgba(17, 0, 253, 0.33);
+}
+
+.register {
+    box-shadow: 15px 15px 26px rgba(17, 0, 253, 0.33);
+}
+
+.button {
+    width: 70px;
+}
+
+.forgotPass {
+    color: black;
+}

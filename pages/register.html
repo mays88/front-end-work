@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="tables.html">Tables</a></li>
+
+            <li style="float: right">
+                <a href="login.html">
+                    <img
+                        src="../images/icons8-login-50.png"
+                        alt="Login Icon"
+                        class="login-user"
+                    />Log In
+                </a>
+            </li>
+        </ul>
+        <section class="doubleLine">
+            <section class="register singleLine">
+                <h1>Register Page</h1>
+                <form action="#">
+                    <label for="FirstName" class="mainform">First Name</label>
+                    <input
+                        type="text"
+                        name="FirstName"
+                        id="FirstName"
+                        placeholder="First Name"
+                        required
+                    /><br />
+                    <label for="LastName" class="mainform">Last Name</label>
+                    <input
+                        type="text"
+                        name="LastName"
+                        id="LastName"
+                        placeholder="Last Name"
+                        required
+                    /><br />
+                    <label for="email" class="mainform">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                        required
+                    /><br />
+                    <label for="password" class="mainform">Password</label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Password"
+                        required
+                    /><br />
+                    <label for="confirmPassword" class="mainform"
+                        >Confirm Password</label
+                    >
+                    <input
+                        type="password"
+                        name="confirmPassword"
+                        id="confirmPassword"
+                        placeholder="Confirm Password"
+                    /><br /><br />
+                    <div class="grouped">
+                        <legend>Gender:&nbsp;</legend>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" />
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" />
+                    </div>
+
+                    <div class="grouped">
+                        <legend>Habits:&nbsp;</legend>
+                        <input
+                            type="checkbox"
+                            name="likeSports"
+                            id="likeSports"
+                        /><label for="likeSports">You like sports</label>
+                        <input
+                            type="checkbox"
+                            name="likeEat"
+                            id="likeEat"
+                        /><label for="likeEat">You like to eat</label>
+                        <input
+                            type="checkbox"
+                            name="likeSleep"
+                            id="likeSleep"
+                        /><label for="likeSleep">You like to sleep</label>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </body>
+</html>
